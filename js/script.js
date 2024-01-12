@@ -15,7 +15,7 @@ function gerarRotas() {
     });
 
     const totalCidades = cidades.length;
-    const itensPorPagina = 1000; // Defina o número de combinações por página
+    const itensPorPagina = 1809; // Defina o número de combinações por página
     const numPaginas = Math.ceil(totalCidades * totalCidades / itensPorPagina);
     
     const table = document.createElement("table");
